@@ -1,0 +1,4 @@
+Change Component Footprint: Designator=JDC1 Old Footprint=DC5 New Footprint=CUI PJ-014D
+Change Component Footprint: Designator=D1 Old Footprint=DIO-SMD-106 New Footprint=D1A
+Change Component Footprint: Designator=D2 Old Footprint=DIO-SMD-106 New Footprint=D1A
+Added Room: Name=PCB_DoAn_DK_nhietdo_dht11_ds18b20

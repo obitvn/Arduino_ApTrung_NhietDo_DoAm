@@ -1,0 +1,5 @@
+Change Component Designator: OldDesignator=S? NewDesignator=S1
+Change Component Designator: OldDesignator=S? NewDesignator=S2
+Change Component Designator: OldDesignator=S? NewDesignator=S3
+Added Member To Class: ClassName=PCB_DoAn_DK_nhietdo_dht11_ds18b20 Member=Component S2 SW
+Added Member To Class: ClassName=PCB_DoAn_DK_nhietdo_dht11_ds18b20 Member=Component S3 SW

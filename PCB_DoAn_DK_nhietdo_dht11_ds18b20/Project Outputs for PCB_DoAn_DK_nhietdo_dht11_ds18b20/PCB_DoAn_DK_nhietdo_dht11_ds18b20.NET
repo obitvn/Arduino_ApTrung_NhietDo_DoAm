@@ -1,0 +1,104 @@
+PARTS LIST
+
+Arduino Nano      Arduino Nano    A1
+1000uF/16V        CP1.5/3.4       C1
+103               SM-0805         C2
+103               SM-0805         C3
+103               SM-0805         C4
+103               SM-0805         C5
+103               SM-0805         C6
+Diode             DIO-SMD-106     D1
+Diode             DIO-SMD-106     D2
+DS18S20           JP3-C1T         IC1
+Jack DC           CUI PJ-014D     JDC1
+LCD 16x2A         HD 16           LCD1
+LED               LED-5-Green     LED1
+LED               LED-5-Green     LED2
+HD4               HEADER 4        P1
+HD3               CON 3           P2
+HD3               CON 3           P3
+2SC1815           TO92-123        Q1
+2SC1815           TO92-123        Q2
+1k                RES-SMD-0805    R1
+1k                RES-SMD-0805    R2
+1k                RES-SMD-0805    R3
+1k                RES-SMD-0805    R4
+1k                RES-1/4W        R5
+1k                RES-1/4W        R6
+1k                RES-1/4W        R7
+Relay 10A/12V     RL_SPDT_10A     RL1
+Relay 10A/12V     RL_SPDT_10A     RL2
+Tact Switch       BUTTON 4 Pin    SW1
+Tact Switch       BUTTON 4 Pin    SW2
+Tact Switch       BUTTON 4 Pin    SW3
+10k               POT MODEL91A    VR1
+EOS
+NET LIST
+
+NODENAME VCC              $
+    A1        26  C1         1  C2         2  C3         2  D1         2  D2         2  IC1        1  JDC1       1  LCD1       2  LED1       1  LED2       1  P1         1  R5         2  R6         2  R7         2  RL1        5  RL2        5  VR1        1
+NODENAME UP               $
+    A1        10  C5         2  R6         1  SW2        2  SW2        4
+NODENAME RW               $
+    A1        23  LCD1       5
+NODENAME RS               $
+    A1        22  LCD1       4
+NODENAME RELAY2           $
+    A1        14  R4         1
+NODENAME RELAY1           $
+    A1        13  R2         1
+NODENAME NetLabel29       $
+    A1        11
+NODENAME NetC2-1          $
+    C2         1  D1         1  Q1         2  R1         2  RL1        4
+NODENAME NetC3-1          $
+    C3         1  D2         1  Q2         2  R3         2  RL2        4
+NODENAME NetC4-1          $
+    C4         1  SW1        1  SW1        3
+NODENAME NetC5-1          $
+    C5         1  SW2        1  SW2        3
+NODENAME NetC6-1          $
+    C6         1  SW3        1  SW3        3
+NODENAME NetLCD1-3        $
+    LCD1       3  VR1        2
+NODENAME NetLED1-2        $
+    LED1       2  R1         1
+NODENAME NetLED2-2        $
+    LED2       2  R3         1
+NODENAME NetP2-1          $
+    P2         1  RL1        2
+NODENAME NetP2-2          $
+    P2         2  RL1        1
+NODENAME NetP2-3          $
+    P2         3  RL1        3
+NODENAME NetP3-1          $
+    P3         1  RL2        2
+NODENAME NetP3-2          $
+    P3         2  RL2        1
+NODENAME NetP3-3          $
+    P3         3  RL2        3
+NODENAME NetQ1-3          $
+    Q1         3  R2         2
+NODENAME NetQ2-3          $
+    Q2         3  R4         2
+NODENAME MODE             $
+    A1         9  C4         2  R5         1  SW1        2  SW1        4
+NODENAME GND              $
+    A1         3  A1        28  C1         2  IC1        3  JDC1       2  JDC1       3  LCD1       1  P1         4  Q1         1  Q2         1  VR1        3
+NODENAME EN               $
+    A1        24  LCD1       6
+NODENAME DS18B20          $
+    A1         5  IC1        2
+NODENAME DOWN             $
+    C6         2  R7         1  SW3        2  SW3        4
+NODENAME DHT11            $
+    A1         4  P1         2
+NODENAME D7               $
+    A1        19  LCD1      14
+NODENAME D6               $
+    A1        20  LCD1      13
+NODENAME D5               $
+    A1        21  LCD1      12
+NODENAME D4               $
+    A1        25  LCD1      11
+EOS

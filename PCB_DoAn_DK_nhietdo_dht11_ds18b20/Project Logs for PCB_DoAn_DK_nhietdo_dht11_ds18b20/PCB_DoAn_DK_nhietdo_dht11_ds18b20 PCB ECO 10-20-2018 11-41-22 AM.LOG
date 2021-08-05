@@ -1,0 +1,42 @@
+Removed Pin From Net: NetName=GND Pin=A1-3
+Removed Pin From Net: NetName=DHT11 Pin=A1-4
+Removed Pin From Net: NetName=DS18B20 Pin=A1-5
+Removed Pin From Net: NetName=MODE Pin=A1-9
+Removed Pin From Net: NetName=UP Pin=A1-10
+Removed Pin From Net: NetName=DOWN Pin=A1-11
+Removed Pin From Net: NetName=RELAY1 Pin=A1-13
+Removed Pin From Net: NetName=RELAY2 Pin=A1-14
+Removed Pin From Net: NetName=RS Pin=A1-18
+Removed Pin From Net: NetName=RW Pin=A1-19
+Removed Pin From Net: NetName=EN Pin=A1-20
+Removed Pin From Net: NetName=D4 Pin=A1-21
+Removed Pin From Net: NetName=D5 Pin=A1-22
+Removed Pin From Net: NetName=D6 Pin=A1-23
+Removed Pin From Net: NetName=D7 Pin=A1-24
+Removed Pin From Net: NetName=VCC Pin=A1-26
+Removed Pin From Net: NetName=GND Pin=A1-28
+Removed Member From Class: ClassName=PCB_DoAn_DK_nhietdo_dht11_ds18b20 Member=A1
+Change Component Footprint: Designator=VR1 Old Footprint=VR-S2 New Footprint=POT MODEL91A
+Added Component: Designator=A?(Arduino Nano)
+Add component. Clean all parameters for all variants
+Added Pin To Net: NetName=GND Pin=A?-3
+Added Pin To Net: NetName=DHT11 Pin=A?-4
+Added Pin To Net: NetName=DS18B20 Pin=A?-5
+Added Pin To Net: NetName=MODE Pin=A?-9
+Added Pin To Net: NetName=UP Pin=A?-10
+Added Pin To Net: NetName=DOWN Pin=A?-11
+Added Pin To Net: NetName=RELAY1 Pin=A?-13
+Added Pin To Net: NetName=RELAY2 Pin=A?-14
+Added Pin To Net: NetName=RS Pin=A?-15
+Added Pin To Net: NetName=RW Pin=A?-18
+Added Pin To Net: NetName=EN Pin=A?-19
+Added Pin To Net: NetName=D4 Pin=A?-20
+Added Pin To Net: NetName=D5 Pin=A?-21
+Added Pin To Net: NetName=D6 Pin=A?-22
+Added Pin To Net: NetName=D7 Pin=A?-23
+Added Pin To Net: NetName=VCC Pin=A?-26
+Added Pin To Net: NetName=GND Pin=A?-28
+Added Pin To Net: NetName=VCC Pin=LCD1-15
+Added Pin To Net: NetName=GND Pin=LCD1-16
+Added Member To Class: ClassName=PCB_DoAn_DK_nhietdo_dht11_ds18b20 Member=Component A? Arduino Nano
+Added Room: Name=PCB_DoAn_DK_nhietdo_dht11_ds18b20

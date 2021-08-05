@@ -1,0 +1,12 @@
+Added Pin To Net: NetName=MODE Pin=A1-9
+Added Pin To Net: NetName=DOWN Pin=A1-11
+Added Pin To Net: NetName=RELAY1 Pin=A1-13
+Added Pin To Net: NetName=RELAY2 Pin=A1-14
+Added Pin To Net: NetName=D7 Pin=A1-19
+Added Pin To Net: NetName=D6 Pin=A1-20
+Added Pin To Net: NetName=D5 Pin=A1-21
+Added Pin To Net: NetName=RS Pin=A1-22
+Added Pin To Net: NetName=RW Pin=A1-23
+Added Pin To Net: NetName=EN Pin=A1-24
+Added Pin To Net: NetName=D4 Pin=A1-25
+Added Room: Name=PCB_DoAn_DK_nhietdo_dht11_ds18b20

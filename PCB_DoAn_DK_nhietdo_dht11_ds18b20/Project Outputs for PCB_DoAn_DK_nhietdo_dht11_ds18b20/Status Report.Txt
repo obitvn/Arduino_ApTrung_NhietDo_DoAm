@@ -1,0 +1,10 @@
+Output: Cadnetix Netlist
+Type  : CadnetixNetlist
+From  : Project [PCB_DoAn_DK_nhietdo_dht11_ds18b20.PrjPcb]
+   Generated File[PCB_DoAn_DK_nhietdo_dht11_ds18b20.NET]
+
+
+Files Generated   : 1
+Documents Printed : 0
+
+Finished Output Generation At 3:27:17 PM On 10/17/2018
